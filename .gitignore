@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+.vite/
+
+# Java / Maven
+target/
+*.log
+
+# Env / secrets
+.env
+application-prod.properties
+
+# OS
+.DS_Store
+
+# Docker volumes
+mysql_data/
