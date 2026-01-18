@@ -22,7 +22,7 @@ Step 2: Connect to the EC2 Instance
 connecting to EC2 instance using AWS connect:
 windows:mobixterm
 ssh -i <path-to-pem-file> ubuntu@<ec2-public-ip>
- <img width="468" height="264" alt="image" src="https://github.com/user-attachments/assets/cf8ab410-2342-4a8b-b5a2-ef325bdbe552" />
+<img width="468" height="264" alt="image" src="https://github.com/user-attachments/assets/cf8ab410-2342-4a8b-b5a2-ef325bdbe552" />
 
 
 Step 3: Create MySQL Database Using AWS RDS
@@ -33,6 +33,7 @@ database name: todoapp
 username: admin
 password:admin$123
 endpoint to connect from RDS to Mysql:todoapp.ccn2ksey6i5w.us-east1.rds.amazonaws.com
+
 <img width="468" height="375" alt="image" src="https://github.com/user-attachments/assets/c70c29bb-f029-4925-a723-a7c5d689c7e0" />
 
 
@@ -59,13 +60,15 @@ java -jar todo-0.0.1-SNAPSHOT.jar \
 step 6:
 Deployed to EC2 :
 Backend:
+
 <img width="468" height="280" alt="image" src="https://github.com/user-attachments/assets/e02abbda-e68e-429d-acd0-46cea39ffe15" />
 
 
  
 
 Postman logs:
- <img width="468" height="276" alt="image" src="https://github.com/user-attachments/assets/fc79da6e-c700-466b-8c8e-8669b8b2a606" />
+
+<img width="468" height="276" alt="image" src="https://github.com/user-attachments/assets/fc79da6e-c700-466b-8c8e-8669b8b2a606" />
 
 
 Deployed to S3:
@@ -76,6 +79,7 @@ enable static website hosting
 attach bucket policy (read/write)
 Allow public access, application is available on internet
 url: http://todoapp123678.s3-website-us-east-1.amazonaws.com/
+
 <img width="468" height="266" alt="image" src="https://github.com/user-attachments/assets/c8bf46f9-e3b0-4e0d-b9e7-df4a7158a583" />
 
  
