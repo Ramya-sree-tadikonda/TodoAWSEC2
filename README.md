@@ -91,6 +91,4 @@ terraform plan -tells about what we are creating in AWS
 terraform apply
  
 AWS console:
- 
-
 <img width="540" height="611" alt="image" src="https://github.com/user-attachments/assets/1b988bea-fcf3-48a1-9e70-8c45ffa4e137" />
